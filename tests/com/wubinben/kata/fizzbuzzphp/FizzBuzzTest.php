@@ -21,6 +21,9 @@ class FizzBuzzTest extends \PHPUnit_Framework_TestCase {
     }
 
     public function test_Given_2_SHOULD_say_2() {
+        // Given
+        $wordHandler = new WordHandler();
+
         // When & Then
         $this->assertEquals("2", $wordHandler->handle(2));
     }
