@@ -7,6 +7,7 @@
  */
 
 namespace com\wubinben\kata\fizzbuzzphp;
+require_once '../../../../../src/com/wubinben/kata/php/WordHandler.php';
 
 
 class FizzBuzzTest extends \PHPUnit_Framework_TestCase {
