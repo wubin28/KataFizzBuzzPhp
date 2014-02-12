@@ -11,5 +11,10 @@ namespace com\wubinben\kata\fizzbuzzphp;
 
 class FizzBuzzTest extends \PHPUnit_Framework_TestCase {
 
+    public function test_Given_1_SHOULD_say_1() {
+        // Then
+        $this->assertEquals("1", $wordHandler->handle(1));
+    }
+
 }
  
