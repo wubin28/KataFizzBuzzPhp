@@ -11,8 +11,8 @@ namespace com\wubinben\kata\fizzbuzzphp;
 
 class WordHandler {
 
-    public function handle() {
-        return "1";
+    public function handle($number) {
+        return $number;
     }
 
 } 
